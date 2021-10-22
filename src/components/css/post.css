@@ -1,0 +1,122 @@
+.box {
+  border-style: solid;
+  margin: 10px;
+  width: 50rem;
+  border-radius: 15px;
+  border-color: lightgrey;
+}
+
+.userProfile {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.username {
+  font-size: 18px;
+}
+
+.title {
+  font-size: 32px;
+
+}
+.profilePicture {
+  width: 75px;
+  height: 75px;
+  margin: 20px;
+  margin-bottom: 5px;
+  border-radius: 50px;
+}
+
+.content {
+  text-align: left;
+  margin-left: 20px;
+  padding: 7px;
+}
+
+.interactiveCounter {
+  display: flex;
+  justify-content: left;
+}
+
+.likeCounter {
+  display: flex;
+  justify-content: right;
+}
+.interactiveButtons {
+  display:flex;
+  justify-content: center;
+  margin-bottom:5px;
+
+}
+
+.likeButton {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width: 24.8rem;
+  background-color: white;
+  border-style: none;
+  border-radius: 2px;
+  height: 2rem;
+
+}
+
+.likeButton:hover {
+  cursor: pointer;
+  background-color: lightblue;
+}
+
+.likeButtonAfterClick {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24.8rem;
+  background-color: lightblue;
+  border-style: none;
+  border-radius: 2px;
+  height: 2rem;
+}
+
+.hrTopBreak {
+  margin:0;
+  margin-bottom: 3px;
+  margin-top: 3px;
+}
+
+.hrBottomBreak {
+  margin:0;
+  margin-bottom: 5px;
+}
+
+.commentButton {
+  width: 24.8rem;
+  background-color: white;
+  border-style: none;
+  border-radius: 2px;
+  height: 2rem;
+}
+
+.commentButton:hover {
+  cursor: pointer;
+  background-color: lightgrey;
+}
+
+.likeButtonImg {
+  width:20px;
+  height:20px;
+  margin-left: 25px;
+}
+
+.likeCounter {
+  margin-left: 5px;
+}
+
+.commentCounter {
+  margin-left: 39.5rem;
+}
+
+.likeImgInButton {
+  width: 30px;
+  height: 30px;
+}

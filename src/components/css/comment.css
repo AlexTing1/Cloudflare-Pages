@@ -1,0 +1,64 @@
+.commentContainer {
+  border-style: solid;
+  margin: 10px;
+  /* margin-bottom: 0px; */
+  /* width: 50rem; */
+  border-radius: 15px;
+  border-color: lightgrey;
+  padding: 10px;
+}
+
+.commentUserInfo {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.commentProfilePic {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+  border-radius: 50px;
+}
+
+.commentContent {
+  display: flex;
+  justify-content: left;
+}
+
+.likeComment {
+  margin-left: 5px;
+}
+
+.likeCommentImg {
+  width:20px;
+  height:20px;
+  /* margin-left: 10px; */
+}
+
+.likeContainer {
+  display: flex;
+  justify-content: left;
+  vertical-align: middle;
+}
+
+.likeLink {
+  /* margin-right: 10px; */
+  background-color: white;
+  border-style: none;
+}
+
+.likeLink:hover {
+  cursor: pointer;
+  color: #5e92ff;
+}
+
+.likeLinkAfterClick {
+  color:#5e92ff;
+  background-color: white;
+  border-style: none;
+}
+
+.likeLinkAfterClick:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,111 @@
+.newPostBox {
+  border-style: solid;
+  margin: 10px;
+  width: 50rem;
+  border-radius: 15px;
+  border-color: lightgrey;
+  margin-top: 5rem;
+}
+
+.newPostText {
+  font-size: 18px;
+  border-style: solid;
+  border-color: grey;
+  padding:15px;
+  width: 35rem;
+  text-align: left;
+  border-radius: 25px;
+  border-width: 2px;
+}
+
+.newPostText:hover {
+  cursor: pointer;
+  background-color: lightgray;
+}
+
+.newPostModal {
+  /* position: absolute;
+  top: 40px;
+  left: 29%;
+  right: 50%;
+  bottom: 40px; */
+  top:200px;
+  width: 50rem;
+  height: 30rem;
+  margin: auto;
+  margin-top: 7rem;
+  background-color: white;
+}
+
+.userProfile {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.newPostProfilePicture {
+  width: 75px;
+  height: 75px;
+  margin: 20px;
+  border-radius: 50px;
+}
+
+.modalTitleLabel {
+  white-space: pre;
+  margin-left: 20px;
+}
+
+.modalUsernameLabel {
+  margin-left:20px
+}
+
+.modalTitleInput {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  width:30rem;
+}
+
+.modalUsernameInput {
+  margin-top: 5px;
+  width:30rem;
+}
+
+.modalContentLabel {
+  margin-left:20px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.modalContentText {
+  margin-top: 1.5rem;
+}
+
+.postButton {
+  background-color: rgb(10, 128, 238);
+  border: none;
+  color: white;
+  padding: 12px 23px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 25px;
+  margin-left: 43rem;
+}
+
+.postButton:hover {
+  cursor: pointer;
+  background-color: rgb(5, 95, 180);
+}
+
+.ReactModal__Overlay {
+  opacity: 0;
+}
+
+.ReactModal__Overlay--after-open{
+  opacity: 1;
+}
+
+.ReactModal__Overlay--before-close{
+  opacity: 0;
+}
